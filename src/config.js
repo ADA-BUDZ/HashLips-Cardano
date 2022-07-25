@@ -5,8 +5,8 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Gooskas";
-const description = "Gooskas CNFT collection for Cardano";
+const namePrefix = "ADA BUDZ";
+const description = "ADA BUDZ NFT COLLECTION";
 const baseUri = "ipfs://NewUriToReplace";
 
 const solanaMetadata = {
@@ -24,14 +24,18 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5000,
+    growEditionSizeTo: 4200,
     layersOrder: [
       { name: "Backgrounds" },
+      { name: "wings" },
+      { name: "balloon" },
+      { name: "spirit" },
       { name: "Body" },
-      { name: "Attire" },
-      { name: "Accessories" },
+      { name: "eyes" },
+      { name: "mouth" },
       { name: "Headgear" },
-      { name: "Beak" },
+      { name: "necklace" },
+      { name: "words" },
     ],
   },
 ];
@@ -41,8 +45,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 1080,
-  height: 1080,
+  width: 500,
+  height: 500,
   smoothing: true,
 };
 
